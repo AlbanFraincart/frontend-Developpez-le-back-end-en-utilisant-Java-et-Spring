@@ -1,55 +1,41 @@
-# Estate
+# frontend-Developpez-le-back-end-en-utilisant-Java-et-Spring
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+ChâTop - Portail de Location en Ligne
+ChâTop est un projet de portail en ligne pour permettre aux locataires potentiels de contacter les propriétaires des propriétés à louer. Ce projet comprend deux parties : un frontend développé avec Angular et un backend développé en Java avec Spring Boot.
 
-## Start the project
+Prérequis
+Node.js et npm pour le frontend (Angular).
+Java 17 pour le backend.
+Maven pour la gestion des dépendances Java.
+MySQL pour la base de données du backend.
 
-Git clone:
+Installation
 
-> git clone https://github.com/OpenClassrooms-Student-Center/P3-Full-Stack-portail-locataire
+1. Frontend (Angular)
+   Clonez le projet :
+   git clone https://github.com/AlbanFraincart/frontend-Developpez-le-back-end-en-utilisant-Java-et-Spring.git
 
-Go inside folder:
+Installez les dépendances :
+Copier le code
+npm install
 
-> cd P3-Full-Stack-portail-locataire
+Démarrez l'application Angular :
+Copier le code
+ng serve
+L'application Angular sera accessible sur http://localhost:4200.
 
-Install dependencies:
+2. Backend (Java/Spring Boot)
+   Clonez le projet :
+   git clone https://github.com/AlbanFraincart/Developpez-le-back-end-en-utilisant-Java-et-Spring.git
 
-> npm install
+Installez les dépendances avec Maven :
+Copier le code
+mvn install
 
-Launch Front-end:
+Démarrez le backend Spring Boot :
+Copier le code
+mvn spring-boot:run
+L'API sera accessible sur http://localhost:8080.
 
-> npm run start;
-
-
-## Ressources
-
-### Mockoon env
-
-Download Mockoon here: https://mockoon.com/download/
-
-After installing you could load the environement
-
-> ressources/mockoon/rental-oc.json
-
-directly inside Mockoon 
-
-> File > Open environmement
-
-For launching the Mockoon server click on play bouton
-
-Mockoon documentation: https://mockoon.com/docs/latest/about/
-
-### Postman collection
-
-For Postman import the collection
-
-> ressources/postman/rental.postman_collection.json 
-
-by following the documentation: 
-
-https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman
-
-
-### MySQL
-
-SQL script for creating the schema is available `ressources/sql/script.sql`
+Base de données
+Le backend est configuré pour utiliser MySQL. Veillez à configurer votre base de données et à mettre à jour les informations de connexion dans le fichier application.properties du backend.
